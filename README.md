@@ -129,3 +129,5 @@ plot.roc((as.numeric(datasets.test$diagnosis)-1), dv.tune, xlab = "1 - Specifici
 ```
 <img src="images/SVM_AUC.png" width="400" >
  
+## Brief Summary
+In summary, the first step is using multiple kernel functions to compare and examine their characteristics to select the goodness fit method for further cross-validation and prediction then reach the final accuracy up to 97.2%, and this can be a reliable and predictable Breast Cancer Machine Learning model. Based on the analysis and comparison show that SVM-Radial is probably the most accurate model. Besides, the study was further evaluating the Decision Tree and observed the limitations on data analysis, while Random Forest can effectively generate multiple sets of Decision Tree to overcome this disadvantage. Nevertheless, both SVM-Radial and Random Forest algorithms require significant computing power or time consuming to achieve accurate prediction.
