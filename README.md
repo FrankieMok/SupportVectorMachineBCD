@@ -76,9 +76,9 @@ Different kernel functions are used to train the in different SVM model, and the
 | --- | --- | --- | --- | --- | --- | --- |
 | Methodology | Accuracy | Sensitivity | Specificity | Accuracy | Sensitivity | Specificity |
 | SVM - LN | 98.81 | 98.18 | 100 | 98.2 | 98.57 | 97.56 |
-| SVM - Radial | 98.81 | 98.18 | 100 | 98.2 | 98.57 | 97.56 |
-| SVM - Polynomial | 98.81 | 98.18 | 100 | 98.2 | 98.57 | 97.56 |
-| SVM - Sigmoid | 98.81 | 98.18 | 100 | 98.2 | 98.57 | 97.56 |
+| SVM - Radial | 97.92 | 96.86 | 100 | 99.1 | 98.59 | 100 |
+| SVM - Polynomial | 89.58 | 86.06 | 100 | 86.49 | 82.35 | 100 |
+| SVM - Sigmoid | 96.43 | 95.95 | 97.37 | 98.2 | 97.22 | 100 |
 
  An example showing the ** SVM-Radial hyperplane, x is support vectors and red/black colour belong to M/B **
  <img src="images/D_svm_rad_t_plot.png" width="400" >
